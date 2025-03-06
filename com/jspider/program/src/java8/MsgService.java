@@ -20,6 +20,13 @@ public class MsgService {
 //        }
 
         Optional<String> userName = u.getUserNameById(userId);
+        if (userName.isPresent()){
+            String name=userName.get();
+            System.out.println(name.toUpperCase()+" ,Hello");
+
+        }else {
+            System.out.println("Np Data found");
+        }
 
     }
 }
