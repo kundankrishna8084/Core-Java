@@ -1,8 +1,5 @@
+
 package com.jspider.program.src.stringAdvance;
-
-import java.util.HashSet;
-import java.util.Set;
-
 public class removeDuplicate {
     public static void main(String[] args) {
         String s1 = "TestTest";

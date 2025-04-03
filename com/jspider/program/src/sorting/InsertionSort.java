@@ -1,3 +1,4 @@
+
 package com.jspider.program.src.sorting;
 import java.util.Arrays;
 public class InsertionSort {
@@ -18,8 +19,6 @@ public class InsertionSort {
             }
             /// Insert the key at its correct position
             arr[j+1]=key;
-
             }
-
         }
     }

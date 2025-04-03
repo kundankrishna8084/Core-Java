@@ -1,5 +1,6 @@
-package com.jspider.program.src.array;
 
+
+package com.jspider.program.src.array;
 public class RotateArrayOneTimeFromRightSide {
     public static void main(String[] args) {
         int[] arr = {12,18,30,40,50,60,70};
